@@ -7,5 +7,7 @@
     {
         "default_popup": "popup.html" ,
         "default_icon": "editoricon.png"
-    }
+    },
+    "web_accessible_resources": "canvas.html" ,
+    "permissions": ["activeTab"]
 }

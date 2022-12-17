@@ -1,5 +1,39 @@
+
+<!doctype html>
+
 <html>
+  <head>
+    <title>Editar</title>
+    <style>
+     </style>
+    <script src='popup.js'></script>
+
+  </head>
   <body>
-    <h1>Hello Extensions</h1>
+    <div class="field">
+       <!-- 
+        <canvas id="canvas"></canvas>
+       --> 
+       <script>
+        window.onload = function() {
+          window.resizeTo(400, 300);
+        }
+      </script>
+        <div class="tools">
+        <button onClick="undo_last()" type="button" class="button">Undo</button>
+        <button onClick="clear_canvas()"  type= "button" class="button">Clear</button>
+        
+        <div onClick="change_color(this)" class="color-field" style="background: red;"></div>
+        <div onClick="change_color(this)" class="color-field" style="background: blue;"></div>
+        <div onClick="change_color(this)" class="color-field" style="background: green;"></div> 
+        <div onClick="change_color(this)" class="color-field" style="background: yellow;"></div>
+        
+        <input onInput="draw_color = this.value" type="color" class="color-picker"> 
+     <!--   <input type="range" min="1"  max="100" class="pen-range"  onInput="draw_width = this.value"> -->
+        </div>
+        </div>
+        
+
   </body>
+
 </html>
