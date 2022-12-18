@@ -4,7 +4,7 @@
    },
    "browser_action": {
       "default_icon": "images/icon38.png",
-      "default_title": "Web Paint"
+      "default_title": "Editar"
    },
    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
    "description": "Draw shapes, lines, and add text to live web pages and take screenshot.",
