@@ -10,25 +10,26 @@
     <style>
      </style>
     <script src='F:\Editar\popup.js'></script>
-
   </head>
-  <body>
-    
+  <body  style="width: 100px; height: 100px;">
+    <!-- popup menu content goes here -->
     <div class="field">
+      <!--Display icon and extension name-->
+       <h2 style="display: flex; align-items: center;"> <img src="icon.png" alt="icon"  height="15" width="15" >
+        <span >Editar</span></h2>
         <div class="tools">
+        <!--undo button-->
         <button onClick="undo_last()" type="button" class="button">Undo</button>
+        <!--clear button-->
         <button onClick="clear_canvas()"  type= "button" class="button">Clear</button>
-        
-        <div onClick="change_color(this)" class="color-field" style="background: red;"></div>
-        <div onClick="change_color(this)" class="color-field" style="background: blue;"></div>
-        <div onClick="change_color(this)" class="color-field" style="background: green;"></div> 
-        <div onClick="change_color(this)" class="color-field" style="background: yellow;"></div>
-        
-      
+        <!--color buttons-->
+        <div ><button style="background-color: red;"></button></div>
+        <div ><button style="background-color: black;"></button></div>
+        <div ><button style="background-color: green;"></button></div>
+        <!--color picker button-->
+        <label for="color-picker">Choose a color:</label>
+        <input type="color" id="color-picker" name="color">
         </div>
-        </div>
-        
-
+      </div>
   </body>
-
 </html>
