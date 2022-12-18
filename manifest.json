@@ -15,7 +15,7 @@
    },
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgwV50jgKtpA3Ihvggi9O94sPFmKNYKGRLmUa9UY1PtS7L4WAOfQrc/Dx5jyPJ67R9fXJgBQpHfN2ptxXI43s+vlsHckMx1OIzEs5zR/gw8S/U4UiOfi+z4c4eXh++rFqfwZJHjDrtNff4DBs2HAGXfHb2GnJhMfBYmverIU2NfABPyvubncPSSl6MHfKY7MK7ugn9vZykNYSHzpZP56wneitT966xI/N0g14WjQu1Xi8mAof0JYJWxYdUsw0MnkHGlGLcvqVSa+Iu5KWc5NMks3/idm4DaphtNEpbJCaqkd2msgEY114cw2Mna97Rz2svdXP9HRPbwpYMpzrLxlBQwIDAQAB",
    "manifest_version": 2,
-   "name": "Web Paint",
+   "name": "Editar",
    "options_page": "options.html",
    "permissions": [ "tabs", "activeTab", "\u003Call_urls>" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
